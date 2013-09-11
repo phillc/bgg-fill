@@ -6,6 +6,12 @@ class BggUser
   attr_accessor :username
 
   def collection
-    HTTParty.get(BGG_ROOT_PATH + '/collection', query: { username: username })
+    response = HTTParty.get(BGG_ROOT_PATH + '/collection', query: { username: username })
+
+    Enumerator.new(response["items"]["totalitems"].to_i) do |yielder|
+      response["items"]["item"].each do |item|
+        yielder << OpenStruct.new(name: item["name"]["__content__"])
+      end
+    end
   end
 end

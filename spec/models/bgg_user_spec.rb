@@ -5,10 +5,12 @@ describe BggUser do
     it "does something" do
       bgg_user = BggUser.new(username: "phillc")
 
-      VCR.use_cassette('bgg_user_phillc') do
+      collection = VCR.use_cassette('bgg_user_phillc') do
         bgg_user.collection
       end
-    end
 
+      expect(collection).to have(36).items
+      expect(collection.first.name).to eq("7 Wonders")
+    end
   end
 end
