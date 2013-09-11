@@ -43,3 +43,10 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'httparty'
+gem 'multi_xml'
+
+group :development, :test do
+  gem 'rspec-rails', '~> 2.0'
+end
