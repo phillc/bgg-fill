@@ -48,4 +48,6 @@ gem 'httparty'
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.0'
+  gem 'webmock'
+  gem 'vcr'
 end

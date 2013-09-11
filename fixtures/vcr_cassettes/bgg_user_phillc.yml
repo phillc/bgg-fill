@@ -1,0 +1,185 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.boardgamegeek.com/xmlapi2/collection?username=phillc
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.0.15
+      Date:
+      - Wed, 11 Sep 2013 19:07:23 GMT
+      Content-Type:
+      - text/xml; charset="UTF-8"
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/5.3.3
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding,User-Agent
+      Set-Cookie:
+      - Coyote-2-48e91082=48e910d1:3; path=/
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>\n<items
+        totalitems=\"36\" termsofuse=\"http://boardgamegeek.com/xmlapi/termsofuse\">\t\n\t\t<item
+        objecttype=\"thing\" objectid=\"68448\" subtype=\"boardgame\" collid=\"20344025\">\n\t<name
+        sortindex=\"1\">7 Wonders</name>\n\t\t<yearpublished>2010</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic860217.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic860217_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 12:55:38\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"124742\" subtype=\"boardgame\" collid=\"20344016\">\n\t<name
+        sortindex=\"1\">Android: Netrunner</name>\n\t\t<yearpublished>2012</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic1324609.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic1324609_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 12:55:07\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"11204\" subtype=\"boardgame\" collid=\"20344205\">\n\t<name
+        sortindex=\"1\">Beer!</name>\n\t\t<yearpublished>2001</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic45714.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic45714_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 13:10:01\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"2453\" subtype=\"boardgame\" collid=\"20344116\">\n\t<name
+        sortindex=\"1\">Blokus</name>\n\t\t<yearpublished>2000</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic153979.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic153979_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 13:01:09\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"89952\" subtype=\"boardgame\" collid=\"20344080\">\n\t<name
+        sortindex=\"1\">Carcassonne: 10 Year Special Edition</name>\n\t\t<yearpublished>2011</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic943924.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic943924_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 12:58:53\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"50381\" subtype=\"boardgame\" collid=\"20344142\">\n\t<name
+        sortindex=\"1\">Cards Against Humanity</name>\n\t\t<yearpublished>2009</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic1104600.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic1104600_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 13:03:00\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"111861\" subtype=\"boardgame\" collid=\"20344144\">\n\t<name
+        sortindex=\"1\">Cards Against Humanity: First Expansion</name>\n\t\t<yearpublished>2011</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic1315693.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic1315693_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 13:03:07\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"134607\" subtype=\"boardgame\" collid=\"20344146\">\n\t<name
+        sortindex=\"1\">Cards Against Humanity: Holiday Expansion</name>\n\t\t<yearpublished>2012</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic1497427.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic1497427_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 13:03:20\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"127354\" subtype=\"boardgame\" collid=\"20344148\">\n\t<name
+        sortindex=\"1\">Cards Against Humanity: Second Expansion</name>\n\t\t<yearpublished>2012</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic1410357.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic1410357_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 13:03:32\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"140361\" subtype=\"boardgame\" collid=\"20344182\">\n\t<name
+        sortindex=\"1\">Cards Against Humanity: Third Expansion</name>\n\t\t<yearpublished>2013</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic1612502.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic1612502_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 13:06:59\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"325\" subtype=\"boardgame\" collid=\"20343987\">\n\t<name
+        sortindex=\"1\">Catan: Seafarers</name>\n\t\t<yearpublished>1997</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic268841.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic268841_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 12:53:09\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"4103\" subtype=\"boardgame\" collid=\"20344215\">\n\t<name
+        sortindex=\"1\">Catan: Seafarers - 5-6 Player Extension</name>\n\t\t<yearpublished>1999</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic268843.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic268843_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 13:10:33\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"478\" subtype=\"boardgame\" collid=\"20344112\">\n\t<name
+        sortindex=\"1\">Citadels</name>\n\t\t<yearpublished>2000</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic636868.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic636868_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 13:00:54\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"36218\" subtype=\"boardgame\" collid=\"20343995\">\n\t<name
+        sortindex=\"1\">Dominion</name>\n\t\t<yearpublished>2008</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic394356.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic394356_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 12:53:46\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"40834\" subtype=\"boardgame\" collid=\"20343996\">\n\t<name
+        sortindex=\"1\">Dominion: Intrigue</name>\n\t\t<yearpublished>2009</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic460011.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic460011_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 12:53:54\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"2346\" subtype=\"boardgame\" collid=\"20344094\">\n\t<name
+        sortindex=\"1\">DVONN</name>\n\t\t<yearpublished>2001</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic795711.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic795711_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 13:00:03\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"72125\" subtype=\"boardgame\" collid=\"20343975\">\n\t<name
+        sortindex=\"1\">Eclipse</name>\n\t\t<yearpublished>2011</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic1173341.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic1173341_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 12:52:34\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"38154\" subtype=\"boardgame\" collid=\"20344187\">\n\t<name
+        sortindex=\"1\">Electronic Pictionary Man</name>\n\t\t<yearpublished>2008</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic407684.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic407684_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 13:07:42\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"128565\" subtype=\"boardgame\" collid=\"20344221\">\n\t<name
+        sortindex=\"1\">Evil Baby Orphanage</name>\n\t\t<yearpublished>2012</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic1380189.png</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic1380189_t.png</thumbnail>\n\t\t\t<status
+        own=\"0\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 13:11:14\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"12692\" subtype=\"boardgame\" collid=\"20344060\">\n\t<name
+        sortindex=\"1\">Gloom</name>\n\t\t<yearpublished>2004</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic51337.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic51337_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 12:57:40\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"6887\" subtype=\"boardgame\" collid=\"20344227\">\n\t<name
+        sortindex=\"1\">Hearts</name>\n\t\t<yearpublished>1850</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic191579.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic191579_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 13:11:45\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"40398\" subtype=\"boardgame\" collid=\"20344179\">\n\t<name
+        sortindex=\"1\">Monopoly Deal Card Game</name>\n\t\t<yearpublished>2008</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic716758.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic716758_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"0\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 13:06:35\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"30549\" subtype=\"boardgame\" collid=\"20344071\">\n\t<name
+        sortindex=\"1\">Pandemic</name>\n\t\t<yearpublished>2008</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic1534148.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic1534148_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 12:58:18\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"40849\" subtype=\"boardgame\" collid=\"20344075\">\n\t<name
+        sortindex=\"1\">Pandemic: On the Brink</name>\n\t\t<yearpublished>2009</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic1546621.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic1546621_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 12:58:26\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"2651\" subtype=\"boardgame\" collid=\"20343993\">\n\t<name
+        sortindex=\"1\">Power Grid</name>\n\t\t<yearpublished>2004</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic173153.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic173153_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 12:53:34\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"28143\" subtype=\"boardgame\" collid=\"20344219\">\n\t<name
+        sortindex=\"1\">Race for the Galaxy</name>\n\t\t<yearpublished>2007</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic236327.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic236327_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"0\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 13:11:04\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"41114\" subtype=\"boardgame\" collid=\"20344066\">\n\t<name
+        sortindex=\"5\">The Resistance</name>\n\t\t<yearpublished>2009</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic1392135.png</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic1392135_t.png</thumbnail>\n\t\t\t<status
+        own=\"0\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 12:58:02\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"13\" subtype=\"boardgame\" collid=\"20343982\">\n\t<name
+        sortindex=\"5\">The Settlers of Catan</name>\n\t\t<yearpublished>1995</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic268839.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic268839_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 12:53:00\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"2807\" subtype=\"boardgame\" collid=\"20344213\">\n\t<name
+        sortindex=\"5\">The Settlers of Catan: 5-6 Player Extension</name>\n\t\t<yearpublished>1996</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic268840.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic268840_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 13:10:25\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"38453\" subtype=\"boardgame\" collid=\"20344048\">\n\t<name
+        sortindex=\"1\">Space Alert</name>\n\t\t<yearpublished>2008</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic384313.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic384313_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 12:56:43\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"102104\" subtype=\"boardgame\" collid=\"20344181\">\n\t<name
+        sortindex=\"1\">Star Fluxx</name>\n\t\t<yearpublished>2011</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic1059779.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic1059779_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 13:06:45\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"9209\" subtype=\"boardgame\" collid=\"20344052\">\n\t<name
+        sortindex=\"1\">Ticket to Ride</name>\n\t\t<yearpublished>2004</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic38668.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic38668_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 12:57:01\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"24439\" subtype=\"boardgame\" collid=\"20344056\">\n\t<name
+        sortindex=\"1\">Ticket to Ride: USA 1910</name>\n\t\t<yearpublished>2006</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic144599.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic144599_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 12:57:23\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"2842\" subtype=\"boardgame\" collid=\"20344003\">\n\t<name
+        sortindex=\"1\">TransAmerica</name>\n\t\t<yearpublished>2001</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic158561.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic158561_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"0\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 12:54:17\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"16992\" subtype=\"boardgame\" collid=\"20343988\">\n\t<name
+        sortindex=\"1\">Tsuro</name>\n\t\t<yearpublished>2004</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic262539.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic262539_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 12:53:19\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t<item
+        objecttype=\"thing\" objectid=\"20100\" subtype=\"boardgame\" collid=\"20344191\">\n\t<name
+        sortindex=\"1\">Wits &amp; Wagers</name>\n\t\t<yearpublished>2005</yearpublished>\t\t\t<image>http://cf.geekdo-images.com/images/pic521431.jpg</image>\n\t\t<thumbnail>http://cf.geekdo-images.com/images/pic521431_t.jpg</thumbnail>\n\t\t\t<status
+        own=\"1\" prevowned=\"0\" fortrade=\"0\" want=\"0\" wanttoplay=\"0\" wanttobuy=\"0\"
+        wishlist=\"0\"  preordered=\"0\" lastmodified=\"2013-09-11 13:07:58\" />\n\t<numplays>0</numplays>\t\t\t\t\t\t\t</item>\n\t\t\n</items>"
+    http_version: 
+  recorded_at: Wed, 11 Sep 2013 19:07:23 GMT
+recorded_with: VCR 2.5.0
